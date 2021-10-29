@@ -1,0 +1,35 @@
+"Bridge the Gap" by DavesCodeMusings
+
+[
+    An example of using a ladder to span a chasm in order to reach a room that is inaccessible otherwise.
+]
+
+[ Define the engineering space as three rooms with a chasm in Engineering Central blocking passage to Engineering North. ]
+Engineering South is a room. It is south of Engineering Central. "The south end of the engineering area is bathed in red emergency lighting, just like the rest of the base. There's a wide variety of interesting and important looking equiptment here. However, it appears to be non-functional, because although the power switches are in the on position, not a single display is lit up."
+
+Engineering Central is a room. "The engineering space continues on in a long north-south coridoor, but there is a deep chasm at the north end. Probably damage from the recent earthquake. It looks  about three meters across."
+
+Engineering North is a room. It is north of Engineering Central. "The north end of the engineering Central is full of dial, knobs, and displays. The most interesting one is a breaker labeled as main power. It is currently in the off position."
+
+The Main Breaker is in Engineering North. "A dual-pole, 200 amp breaker, currently in the off position."
+
+[ The player starts in Engineering South, and must use the ladder in Enggineering South to span the chasm in Engineering Central. ]
+The player is in Engineering South.
+
+The ladder is in Engineering South.
+
+After dropping ladder when location is Engineering Central, say "The ladder is just long enough to span the chasm. If you tread carefully, you can probably use it as a bridge and cross to the other side."
+
+[ Normally, the way is blocked because of the chasm. ]
+Instead of going north when the location is Engineering Central, say "The chasm is too wide to jump across."
+
+[ But, when the ladder is in Engineering Central, it's used as a bridge to span the chasm. ]
+Instead of going north in the presence of ladder when the location is Engineering Central:
+	say "Fortunately, the ladder is just long enough to span the chasm and you can use it as a bridge. Try not to fall.";
+	move player to Engineering North;
+
+[ Make the ladder immovable once it's served its purpose. ]
+Instead of taking ladder when location is Engineering Central, say "The ladder is wedged too tightly into the chasm to remove."
+
+[ Stop the player from leaving the ladder where it's inaccessible. ]
+Instead of dropping ladder when location is Engineering North, say "You'll need the ladder to span the chasm on the way back."
