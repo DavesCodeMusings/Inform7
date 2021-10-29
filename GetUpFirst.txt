@@ -1,0 +1,24 @@
+"Get Up First" by DavesCodeMusings
+
+[
+  An example of starting the player in a container (in this case a bed) that they have to leave before being able to do anything.
+
+  Test with: "get up / go east" or "get up / go north"
+  Negative test: "go east" or "go north" while still in bed.
+]
+
+[ Define the rooms. ]
+Bedroom is a room. "The bedroom is a small room with a single bed and an antique three drawer chest. There's a  window to the west and a door to the east. Probably a closet."
+
+The closet is a room. It is east of the bedroom. "There are two closet rods. The upper one is home to seven identical white shirts on dry cleaner's hangers. The lower one has seven pair of navy blue trousers."
+
+The hallway is a room. It is north of the bedroom. "A rather unremarkable east-west hallway."
+
+[ Create a bed that the player has to get out of before doing anything else. ]
+The bed is a container in Bedroom.  The Bed is enterable and fixed in place. 
+
+The player is in bed.
+
+[ Give a hint about getting out of bed first. ]
+Instead of going east when player is in the bed, say "You might have an easier time if you get up first."
+Instead of going north when player is in the bed, say "You might have an easier time if you get up first."
