@@ -1,0 +1,28 @@
+"Keys to the Attic" by DavesCodeMusings
+
+[
+  This example shows how to use a locked door to prevent a player from entering a room (the attic in this case.) It is similar to Get Out of Bed, with the addition of a set of keys in the closet that allow a player to unlock the attic door.
+  
+  Test with: "east / take keys / west / north / open door with keys / east / up"
+]
+
+[ Define the rooms. ]
+The bedroom is a room. "The bedroom is a small room with a single bed and an antique three drawer chest. There's a  window to the west and a door to the east. Probably a closet."
+
+The closet is a room. It is east of the bedroom. "There are two closet rods. The upper one is home to seven identical white shirts on dry cleaner's hangers. The lower one has seven pair of navy blue trousers. It looks like a set of keys has been dropped on the floor."
+
+The hallway is a room. It is north of the bedroom. "A rather unremarkable east-west hallway with two doors and a window at the west end. The door to the south leads to the bedroom. There is also a door to the east."
+
+The stairway is a room. "There is a stairway leading up."
+
+The attic is a room. It is up from the stairway. "It's very hot and dusty up here."
+
+[ This locked door is what prevents the player from reaching the attic stairway.  It can only be opened with the set of keys found in the bedroom closet. ]
+The unmarked door is a closed door. It is east of the hallway and west of the stairway. It is lockable and locked. The matching key of the unmarked door is the set of keys.
+
+[ Start the player in the bedroom. They need to enter the closet to find the keys to open the attic door. ]
+The bed is a container in Bedroom.  The Bed is enterable and fixed in place. 
+
+The player is in the bedroom.
+
+The set of keys are in the closet.
