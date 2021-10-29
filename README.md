@@ -1,2 +1,4 @@
 # Inform7
-Interactive Fiction Examples
+Here you will find examples of interactive fiction, written in Inform 7.
+
+* Bridge the Gap -- An example of making a room off limits to a player, but beyond the usual locked door. A space is divided into three rooms with the central room having a large chasm blocking the player's access. However, in the starting location, there is a ladder that can be used to span the chasm.
