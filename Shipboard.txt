@@ -1,0 +1,36 @@
+"Shipboard" by DavesCodeMusings
+
+[
+  Redefine the usual north, south, east, west directions for stories that take place on a ship. Most of this is covered in the manual,
+  but the trick to prevent 's' from being interpreted as an abreviation for south came from CuriousDannii on Stack Overflow.
+  https://stackoverflow.com/questions/69771971/how-to-understand-s-only-as-abreviation-for-starboard-not-south-in-inform7-i/69779974#69779974
+
+  Test using fore, aft, port, starboard (or f, a, p, s) to explore the ship. Up and down still work as usual.
+]
+
+[ Redefine directions ]
+fore is a direction. The opposite of fore is aft. Understand "f" as fore. Understand "forward" as fore.
+aft is a direction. The opposite of aft is fore. Understand "a" as aft.
+port is a direction. The opposite of port is starboard. Understand "p" as port.
+starboard is a direction. The opposite of Starboard is Port. Understand "s" as starboard.
+
+[ Give hints if the player tries to use compass directions. ]
+Instead of going north, say "You're on a ship. Maybe you meant fore."
+Instead of going east, say "East? Perhaps port is what you were thinking."
+Instead of going west, say "'Go west, young man?' Should have thought about that before you joined the navy. Try starboard."
+Instead of going south, say "South? There ain't no Mason-Dixon line on this old tub. Did you want to go aft?"
+
+[ Prevent 's' from being confused with 'south'. ]
+Does the player mean doing something with south: it is very unlikely.
+
+[ Define a simple ship's layout fore testing. ]
+Bow is a room. It is fore of the mast and aft of the sea. "Waves are crashing as the ship cuts through the water."
+Mast is a room. It is fore of the stearn and aft of the bow. "Right in the center of the ship, the thick timber of the mast extends skyward."
+Crows Nest is a room. It is up from the mast. "You can see everything from up here. I think I see my house."
+Galley is a room. It is down from the mast. "It's very dark down here, but there's light coming from above."
+Stern is a room. It is aft of the mast and fore of the sea. "From here, you can watch the land you once called home receding in the distance."
+Starboard Gunwhale is a room. It is starboard of the mast and port of the sea. "Be careful you don't end up falling in the sea."
+Port Gunwhale is a room. It is port of the mast and starboard of the sea. "Watch your step or you'll end up in the drink."
+
+[ Start the player in the middle. ]
+The player is in Mast.
