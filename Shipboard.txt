@@ -21,7 +21,7 @@ Instead of going west, say "'Go west, young man?' Should have thought about that
 Instead of going south, say "South? There ain't no Mason-Dixon line on this old tub. Did you want to go aft?"
 
 [ Prevent 's' from being confused with 'south'. ]
-Does the player mean doing something with south: it is very unlikely.
+Does the player mean going south: it is very unlikely.
 
 [ Define a simple ship's layout fore testing. ]
 Bow is a room. It is fore of the Mast and aft of the Sea. "Waves are crashing as the ship cuts through the water."
