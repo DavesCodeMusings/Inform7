@@ -23,7 +23,7 @@ Instead of going south, say "South? There ain't no Mason-Dixon line on this old 
 [ Prevent 's' from being confused with 'south'. ]
 Does the player mean going south: it is very unlikely.
 
-[ Define a simple ship's layout fore testing. ]
+[ Define a simple ship's layout for testing. ]
 Bow is a room. It is fore of the Mast and aft of the Sea. "Waves are crashing as the ship cuts through the water."
 Mast is a room. It is fore of the Stearn and aft of the Bow. "Right in the center of the ship, the thick timber of the mast extends skyward."
 Crows Nest is a room. It is up from the Mast. "You can see everything from up here. I think I see my house."
