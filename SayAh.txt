@@ -2,6 +2,8 @@
 
 [
   An example of non-player characters replying to something besides the usual yes, no, sorry.
+  The idea to use 'Instead of answering Doctor Eckleburg that' came from Stack Overflow user
+  Tehgby. https://stackoverflow.com/questions/69790847/getting-a-simple-reply-from-a-character-in-inform-7
 
   Test with: "get on table / say ah"
 ]
