@@ -1,0 +1,15 @@
+"Say Ah" by DavesCodeMusings
+
+[
+  An example of saying things besides yes, no, and sorry to non-player characters.
+
+  Test with: "get on table / ah / say ah / yes / no / say sorry"
+]
+
+The Exam Room is a room. "Why don't you hop up on the table and let's have a look at you."
+In the Exam Room is a person called Doctor Eckleburg.
+The exam table is a supporter in the Exam Room. It is fixed in place and enterable.
+After entering the exam table, say "Open up and say ah."
+Instead of saying yes in the presence of the Doctor Eckleburg, say "Mmm. Mm-hmm. Very interesting."
+Understand "ah" and "say ah" as saying yes when location is Exam Room.
+Instead of saying no in the presence of the Doctor Eckleburg, say "Hmm..."
