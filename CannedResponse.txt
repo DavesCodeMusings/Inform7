@@ -1,9 +1,9 @@
-"Say Ah" by DavesCodeMusings
+"CannedResponse" by DavesCodeMusings
 
 [
-  An example of saying things besides yes, no, and sorry to non-player characters.
+  An example of non-player characters replying to multiple things with a limited number of reponses.
 
-  Test with: "get on table / ah / say ah / yes / no / say sorry"
+  Test with: "get on table / ah / say ah / yes / no / it hurts when I go like this / sorry"
 ]
 
 The Exam Room is a room. "Why don't you hop up on the table and let's have a look at you."
@@ -13,3 +13,4 @@ After entering the exam table, say "Open up and say ah."
 Instead of saying yes in the presence of the Doctor Eckleburg, say "Mmm. Mm-hmm. Very interesting."
 Understand "ah" and "say ah" as saying yes when location is Exam Room.
 Instead of saying no in the presence of the Doctor Eckleburg, say "Hmm..."
+Understand "it hurts when I go like this" as saying no when location is the Exam Room.
