@@ -5,4 +5,5 @@ Inform 7 provides a slick way to interactive fiction, but it's not always easy t
 * Get Up First -- The player starts the story in bed and must leave the bed before being able to do anything else.
 * Keys to the Attic -- It's the same old story, really. There's an interesting unmarked door, but it's locked and the player cannot enter without first finding the keys. In this case, the keys are on the floor of the bedroom closet.
 * Say Ah -- Allow answering non-player characters with words in addition to yes, no, and sorry. In this case, getting a response from a doctor when asked to open up and say ah.
+* Sample Day -- A non-player character (NPC) asks a yes-no question and changes their state based on the player's answer.
 * Shipboard -- Redefine directions to use fore, aft, port, and starboard, instead of north, south, east, and west. Also make sure 's' is recognized as an abreviation for starboard and not south.
