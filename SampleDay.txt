@@ -1,0 +1,21 @@
+"Sample Day" by DavesCodeMusings
+
+[
+	An example of a non-player character (NPC) asking a simple yes/no question and changing their state based on the answer.
+	
+	Test with: "take bread" then answer "yes" or "no" to get a conditional response.
+]
+
+The bakery is a room.
+The player is in the bakery.
+The baker is a person in the bakery.
+The baker can be befriended. The baker is not befriended.
+The bread is a thing in the bakery.
+
+Instead of taking the bread:
+	say "'Want a sample?' asks the baker.";
+	if the player consents:
+		say "'You like it? I'm glad.'";
+		now the baker is befriended;
+	otherwise:
+		say "'Maybe next time.'"
